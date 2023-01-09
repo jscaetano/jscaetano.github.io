@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+		<title>João Sá Caetano</title>
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="icon" type="image/x-icon" href="images/logonobgreversed.png" />
+	</head>
+	<body onscroll="scrollFunction()">
+		<header class="header">
+			<div id="container-header">
+				<a id="logobtn" href="index.html"><img id="logobtnimage" src="images/logonobg.png" alt="Logo"></a>
+				<br>
+				<div class="redirects">
+					<a id="0href" href="index.html">&#60;home&#62;</a>
+					<a id="1href" href="#skillsHead">&#60;skills&#62;</a>
+					<a id="2href" href="https://github.com/jscaetano">&#60;projects&#62;</a>
+					<a id="3href" href="#aboutMeHead">&#60;aboutMe&#62;</a>
+					<a id="4href" href="cv.html">&#60;curriculum&#62;</a>
+					<a id="5href"href="#contactid">&#60;contactMe&#62;</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="card" onclick="rotateY180()">
+				<div class="card-inner" id="introcard">
+
+					<div class="front">
+						<img src="images/terrain.gif" class="terrain-gif">
+						<div class="row cardlogo">
+							<img id="logocard" src="images/logonobg.png" width="150px">
+						</div>
+						<div class="row card-holder">
+							<p>CARD HOLDER</p>
+							<p>DATE OF EMISSION</p>
+						</div>
+						<div class="row name">
+							<p>JOÃO SÁ CAETANO</p>
+							<p>09 / 00</p>
+						</div>
+					</div>
+
+					<div class="back">
+						<img src="images/terrain.gif" class="terrain-gif">
+						<div class="bar"></div>
+						<div class="row card-text">
+							<p>I'm currently a programming student at 42 Lisbon, looking
+								to learn more about security, blockchain, web dev,
+								and game dev.</p>
+							<p>I'm also an independent music producer/composer making
+								instrumentals for artists, brands, and commercials.</p>
+						</div>
+						<div class="row signature">
+							<p id="signature">João Sá Caetano</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="clickme">
+			<img src="images/arrow.png" width="30px">
+			<h3>clickMe!</h3>
+		</div>
+
+		<h2 id="skillsHead">SKILLS</h2>
+		<div class="skills">
+			<div class="skillsrow" id="skillsrow1">
+				<p>C</p>
+				<p>Bash</p>
+				<p>HTML</p>
+				<p>CSS</p>
+			</div>
+			<div class="skillsrow" id="skillsrow2">
+				<div class="containerskills">
+					<div class="skillsbar skill1"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill2"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill3"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill4"></div>
+				</div>
+			</div>
+			<div class="skillsrow" id="skillsrow3">
+				<p>javaScript</p>
+				<p>Sony Vegas</p>
+				<p>FL Studio</p>
+				<p>Logic Pro</p>
+			</div>
+			<div class="skillsrow" id="skillsrow4">
+				<div class="containerskills">
+					<div class="skillsbar skill5"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill6"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill7"></div>
+				</div>
+				<div class="containerskills">
+					<div class="skillsbar skill8"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="aboutMe">
+			<h2 id="aboutMeHead">ABOUT ME</h2>
+			<h3 id="aboutMeid" class="line-1">Hey, I'm João 👋</h3>
+			<p>I'm 22 years old, from Coimbra, Portugal.</p><br>
+
+			<p>🖥️		Currenty I'm studying programming @ <a href="https://www.42lisboa.com/">42 Lisbon</a>,
+				focusing mainly on <strong>C</strong> and <strong>Bash</strong>,
+				soon to start in <strong>C++.</strong></p><br>
+
+			<p>💻		Lately, along with the school projects, I've been developing my own
+				projects, until now using <strong>C</strong>, <strong>HTML</strong>,
+				<strong>CSS</strong> and <strong>JavaScript</strong>
+				(This website being one of them 😃).</p><br>
+
+			<p>🎧		For the last 6 years, I've also been a <strong>audio engineer</strong>,
+				<strong>music producer,</strong> and <strong>composer</strong>.
+				I've been working with many artists and brands from all over the country,
+				making instrumentals, and mixing/mastering audio projects.
+			</p><br>
+			<p>🎙️		I have my own <strong>music/recording studio</strong> in Coimbra.
+
+			</p><br>
+			<p>📹		I also have experience in <strong>video recording</strong> and <strong>editing</strong>,
+				for when I was young, I used to record and edit Skateboarding videos
+				in the local community. Along with that, I've also directed and
+				recorded <strong>music videos</strong> for local artists.</p><br>
+			<p>🗣️	I speak fluent <strong>Portuguese</strong>, <strong>English</strong>,
+				and semi-fluent <strong>Spanish</strong>.</p><br>
+			<p>📝	My main interests right now are <strong>music/audio</strong>,
+				<strong>security</strong>, <strong>blockchain</strong>, <strong>web dev</strong>
+				and <strong>game dev</strong>, but I am always exited to learn new things.</p><br>
+			<p>📬	You can reach me at <strong>joaosacaetano@gmail.com</strong>, or using the
+				<a href="#contactid">form below</a>.</p><br>
+		</div>
+
+		<!-- <h1>Hi. I'm João 😎</h1>
+		<div class="typewriter">
+			<p>I'm currently a programming student at 42 Lisbon, looking to learn more about security, web dev, and game dev.</p>
+			<p>I'm also an independent music producer/composer making instrumentals for artists, brands, and commercials.</p>
+		</div> -->
+
+		<div id="contactid" class="contactform">
+			<form action="https://formsubmit.co/b4e772296e88f6d2308cd491a7a39cbd" method="POST">
+				<h2>CONTACT ME</h2>
+				<input type="text" name="name" id="contactname" placeholder="Name" required>
+				<input type="email" name="email" id="contactemail" placeholder="Email Address" required>
+				<textarea name="message" id="contactmessage" rows="6" placeholder="Message"></textarea>
+				<button type="submit">sendMessage</button>
+			</form>
+		</div>
+
+		<footer class="footer">
+			<h2 id="footerTitle">checkMeOutOnSocialMedia!</h2>
+			<br>
+			<footer class="footer-links">
+				<a href="https://github.com/jscaetano">
+					<img class="instalogo" src="images/instagram.png" width="60px">
+				</a>
+				<a href="https://github.com/jscaetano">
+					<img class="twitterlogo" src="images/twitter.png" width="60px">
+				</a>
+				<a href="https://github.com/jscaetano">
+					<img class="gitlogo" src="images/github.png" width="60px">
+				</a>
+			</footer>
+		</footer>
+
+		<script src="index.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+		<script src="jquery.easypiechart.js"></script>
+		<script>
+			$(function() {
+				$('.chart').easyPieChart({
+					barColor:"black",
+					size:80,
+					lineWidth: 8,
+					trackColor: 00000000
+				});
+			});
+		</script>
+
+	</body>
+</html>
